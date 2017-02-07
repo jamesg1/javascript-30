@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Scoped CSS Variables and JS</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <h1>Update CSS Variables with <span class='hl'>Javascript</span></h1>
+
+    <div class="controls">
+        <label for="spacing">Spacing:</label>
+        <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+        <label for="blur">Blur:</label>
+        <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+
+        <label for="base">Base Color</label>
+        <input id="base" type="color" name="base" value="#0097DF">
+    </div>
+
+    <img src="http://theworldgame.sbs.com.au/sites/sbs.com.au.theworldgame/files/styles/full/public/syd_fc.jpg?itok=T4aRZ1-U">
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
